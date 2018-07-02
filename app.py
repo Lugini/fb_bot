@@ -72,7 +72,7 @@ def send_message(recipient_id, message_text):
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
     params = {
-        "access_token": "EAACEdEose0cBACFtqPZB3UXkeTznZCoQANlyVFg8myFFZB8BZBkYwlZAYjmsKNXiY1a5afKgYExODfe8dBsa0FZBSkD5USZCVWibBtEd7QZAihk9awQLJ6ZCC5EAh7x10ivIxNP1ULbnu9PbEs4yxZC32QhOQAZBVT09nQSFras1QfFpccvzA6ZCvE5PfofrQ2pxPGIZD"
+        "access_token": "EAACEdEose0cBAN9bAaMiBDQ170925doKQnC8DSpRE8niXohrMf5AFCAoOq1R9bEa7ru8Esl232M8ClcVR5HUR60rA7CMcl3FQJZB6wQ7lwPRu6RFcMV2tnUlC7Lo2M5tpZAtZBTZBj3iuzlJi5MROWtJB6EkbbOqS8oLvnulw2Tbk6udEmgPT9coCjKrwpeKPIFUU1KtmwZDZD"
     }
     headers = {
         "Content-Type": "application/json"
